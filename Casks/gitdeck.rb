@@ -3,7 +3,7 @@ cask "gitdeck" do
   name "gitdeck"
   desc "Terminal UI for monitoring CI/CD pipelines."
   homepage "https://github.com/waabox/gitdeck"
-  version "0.2.2"
+  version "0.2.3"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "gitdeck" do
   on_macos do
     on_intel do
       url "https://github.com/waabox/gitdeck/releases/download/v#{version}/gitdeck_darwin_amd64.tar.gz"
-      sha256 "6e04517e928b860b4c18c8ded8ddc9ed7a28e777ab78499bc254c8de8f437a8f"
+      sha256 "b1205675579969e7c675dd0540b0209cd34fefa5ca04583db0e0b48224b8b90b"
     end
     on_arm do
       url "https://github.com/waabox/gitdeck/releases/download/v#{version}/gitdeck_darwin_arm64.tar.gz"
-      sha256 "cd2ced8c15e96211923582d5cd67f655844a8b1f90f4983939b8d2bd01c08de5"
+      sha256 "d4bed2e2463b4476a0fd221d635ce104cfee59da5565cd22f0e0dc5cc464c8d3"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/waabox/gitdeck/releases/download/v#{version}/gitdeck_linux_amd64.tar.gz"
-      sha256 "bb15a108a7b164033294ffcb304788ac60cb49732aadb60113c14a1b7ef4f3a6"
+      sha256 "b13604bd4a3d9310cd7c5c00c676f4a668b4df12bcc91c268fc33dea9a9287db"
     end
     on_arm do
       url "https://github.com/waabox/gitdeck/releases/download/v#{version}/gitdeck_linux_arm64.tar.gz"
-      sha256 "dbac730490c524177ef920240a974a4b0c3f21ba26e6213641884f9631b6bab4"
+      sha256 "abe213bff0e002b381135e736fa305ab6462c4112bc12265751a539b13db61d4"
     end
   end
 

@@ -14,22 +14,22 @@ cask "gitdeck" do
   on_macos do
     on_intel do
       url "https://github.com/waabox/gitdeck/releases/download/v#{version}/gitdeck_darwin_amd64.tar.gz"
-      sha256 "2f440144a74892a5a539a8204380e625f688ab499c52e7c05a4b63531f53f217"
+      sha256 "1465cdac0ac3cb78f8b1c716b945582d704d2161f9cbc5556806d7b48722652c"
     end
     on_arm do
       url "https://github.com/waabox/gitdeck/releases/download/v#{version}/gitdeck_darwin_arm64.tar.gz"
-      sha256 "ed2442be0f601912544d72d255170e67e824f7bcfe8a02b2b0976764f2f4aed2"
+      sha256 "a8c36d5c0435d6316eef9ac2dd46028a52ef029e3c992f75cde1dc88fb0c02f9"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/waabox/gitdeck/releases/download/v#{version}/gitdeck_linux_amd64.tar.gz"
-      sha256 "f13aae713e7c59ef15f2abf16e39433186f4194780d1de6fa5d104d602710352"
+      sha256 "113682d3be543098810ee3c496c115b04640211c5bae0a1adc101a4723b33b89"
     end
     on_arm do
       url "https://github.com/waabox/gitdeck/releases/download/v#{version}/gitdeck_linux_arm64.tar.gz"
-      sha256 "93e637622975d48e90566b9168b10857b086129e926b4c3adde4609b73b60111"
+      sha256 "4080808c7f61f50ea752ae6b08924c9a09489defa4e3dc16d27b820e7655b0cb"
     end
   end
 
